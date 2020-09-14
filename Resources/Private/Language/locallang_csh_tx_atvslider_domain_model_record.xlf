@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:at_vslider/Resources/Private/Language/locallang_csh" date="2020-08-14T17:22:11Z" product-name="at_vslider">
+		<header/>
+		<body>
+			<trans-unit id="title.description" resname="title.description">
+				<source>title</source>
+			</trans-unit>
+			<trans-unit id="subtitle.description" resname="subtitle.description">
+				<source>subtitle</source>
+			</trans-unit>
+			<trans-unit id="description.description" resname="description.description">
+				<source>description</source>
+			</trans-unit>
+			<trans-unit id="simage.description" resname="simage.description">
+				<source>simage</source>
+			</trans-unit>
+			<trans-unit id="image.description" resname="image.description">
+				<source>image</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

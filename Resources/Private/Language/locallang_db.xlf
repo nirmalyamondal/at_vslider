@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:at_vslider/Resources/Private/Language/locallang_db" date="2020-08-14T17:31:24Z" product-name="at_vslider">
+		<header/>
+		<body>
+			<trans-unit id="tx_atvslider_pi1.name" resname="tx_atvslider_pi1.name">
+				<source>Vertical Slider</source>
+			</trans-unit>
+			<trans-unit id="tx_atvslider_pi1.description" resname="tx_atvslider_pi1.description">
+				<source>Responsive vertical slider with Title, Subtitle, Description, Image.</source>
+			</trans-unit>
+			<trans-unit id="tx_atvslider_domain_model_record" resname="tx_atvslider_domain_model_record">
+				<source>Vertical Slider Records</source>
+			</trans-unit>
+			<trans-unit id="tx_atvslider_domain_model_record.title" resname="tx_atvslider_domain_model_record.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_atvslider_domain_model_record.uri" resname="tx_atvslider_domain_model_record.uri">
+				<source>Link</source>
+			</trans-unit>
+			<trans-unit id="tx_atvslider_domain_model_record.subtitle" resname="tx_atvslider_domain_model_record.subtitle">
+				<source>Sub Title</source>
+			</trans-unit>
+			<trans-unit id="tx_atvslider_domain_model_record.description" resname="tx_atvslider_domain_model_record.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_atvslider_domain_model_record.simage" resname="tx_atvslider_domain_model_record.simage">
+				<source>Small Photo</source>
+			</trans-unit>
+			<trans-unit id="tx_atvslider_domain_model_record.image" resname="tx_atvslider_domain_model_record.image">
+				<source>Photo</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

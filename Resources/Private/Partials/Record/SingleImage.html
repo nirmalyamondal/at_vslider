@@ -1,0 +1,13 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+    <f:if condition="{iterator.cycle} == 1">
+        <f:then>
+            <f:if condition="{record.image}">
+                <div class="ps-slide" id="image{iterator.cycle}" style="background-image:url({record.image.originalResource.publicUrl}); top: 0; z-index: 999;"></div>
+            </f:if>
+        </f:then> 
+        <f:else>
+            <f:if condition="{record.image}">
+                <div class="ps-slide" id="image{iterator.cycle}" style="background-image:url({record.image.originalResource.publicUrl}); top: 100%; z-index: 1;"></div>
+            </f:if>
+        </f:else>
+    </f:if>

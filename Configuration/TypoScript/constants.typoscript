@@ -1,0 +1,27 @@
+
+plugin.tx_atvslider_pi1 {
+    view {
+        # cat=plugin.tx_atvslider_pi1/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:at_vslider/Resources/Private/Templates/
+        # cat=plugin.tx_atvslider_pi1/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:at_vslider/Resources/Private/Partials/
+        # cat=plugin.tx_atvslider_pi1/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:at_vslider/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_atvslider_pi1//a; type=string; label=Default storage PID
+        storagePid =
+    }
+    settings {
+        javascript {
+            addJQuery = 1
+            jQueryFilePath = https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js
+            addVslider = 1
+            vsliderFilePath = EXT:at_vslider/Resources/Public/javascript/at-vslider.js
+        }
+        css {
+            addVslider = 1
+            vsliderFilePath = EXT:at_vslider/Resources/Public/css/at-vslider.css
+        }
+    }
+}

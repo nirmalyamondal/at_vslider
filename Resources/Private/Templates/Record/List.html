@@ -1,0 +1,35 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="content">
+<section id="ps-container" class="ps-container">
+<div class="ps-contentwrapper at-vslider__wrp">
+    <f:for each="{records}" as="record" iteration="iterator">
+        <f:render partial="Record/Single" arguments="{record:record, iterator:iterator}" />
+    </f:for>
+</div>
+<nav class="ps-next-previous">
+    <a href="#" class="ps-prev"></a>
+    <a href="#" class="ps-next"></a>
+</nav>
+<div class="ps-slidewrapper">
+    <div class="ps-slides">
+    <f:for each="{records}" as="record" iteration="iterator">
+        <f:render partial="Record/SingleImage" arguments="{record:record, iterator:iterator}" />
+    </f:for>
+    </div>
+</div>
+</section>
+</f:section>
+</html>

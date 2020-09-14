@@ -1,0 +1,21 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+    <div class="ps-content at-vslider__item">
+        <h2 class="at-vslider__title">
+            {record.title}            
+        </h2>        
+        <span class="at-vslider__content">            
+            <div class="at-vslider__text">
+                <span class="ps-photo">
+                    <f:if condition="{record.simage}">
+                        <img src="{record.simage.originalResource.publicUrl}" class="at-simage-content" alt="{record.title}"/>
+                    </f:if>
+                    <span class="at-vslider__code">{record.subtitle}</span>
+                </span>
+                <f:format.html parseFuncTSPath="lib.parseFunc">{record.description}</f:format.html>
+                
+                <f:if condition="{record.uri}">
+                    <f:link.typolink parameter="{record.uri}" class="at-vslider__button">More ...</f:link.typolink>
+                </f:if>
+            </div>            
+        </span>
+    </div>
